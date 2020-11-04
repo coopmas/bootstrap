@@ -15,7 +15,7 @@ Bootstrap's grid system uses a series of containers, rows, and columns to layout
 {{< /callout >}}
 
 {{< example class="bd-example-row" >}}
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm">
       One of three columns

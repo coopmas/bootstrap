@@ -13,7 +13,7 @@
 
   &:focus-within ~ .form-file-label {
     border-color: $form-file-focus-border-color;
-    box-shadow: $form-file-focus-box-shadow;
+   // box-shadow: $form-file-focus-box-shadow;
   }
 
   // Use disabled attribute in addition of :disabled pseudo-class
@@ -35,7 +35,7 @@
   height: var(--bs-form-file-height);
   border-color: $form-file-border-color;
   @include border-radius($form-file-border-radius);
-  @include box-shadow($form-file-box-shadow);
+ // @include box-shadow($form-file-box-shadow);
 }
 
 .form-file-text {

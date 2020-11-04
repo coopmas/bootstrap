@@ -87,7 +87,10 @@
     "type": "opencollective",
     "url": "https://opencollective.com/bootstrap"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "ruby": "^0.6.1"
+  },
   "peerDependencies": {
     "popper.js": "^1.16.1"
   },

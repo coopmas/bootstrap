@@ -25,7 +25,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 ### Vertical alignment
 
 {{< example class="bd-example-row bd-example-row-flex-cols" >}}
-<div class="container">
+<div class="container-fluid">
   <div class="row align-items-start">
     <div class="col">
       One of three columns

@@ -22,7 +22,7 @@
 
   @include box-shadow($input-box-shadow);
   @include transition($input-transition);
-
+   
   // Customize the `:focus` state to imitate native WebKit styles.
   &:focus {
     color: $input-focus-color;
@@ -33,7 +33,7 @@
       @include box-shadow($input-box-shadow, $input-focus-box-shadow);
     } @else {
       // Avoid using mixin so we can pass custom focus shadow properly
-      box-shadow: $input-focus-box-shadow;
+     // box-shadow: $input-focus-box-shadow;
     }
   }
 
